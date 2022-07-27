@@ -72,7 +72,7 @@ export function App() {
           type="text"
           value={searchTaskName}
           onChange={handleTermSearch}
-          placeholder="Pesquisar uma tarefa"
+          placeholder="search for a task"
         />
 
         <Tasks
@@ -84,12 +84,12 @@ export function App() {
 
         <footer className={styles.footer}>
           <h6>
-            Total de tarefas:
+            Total tasks::
             <span>{totalTasks}</span>
           </h6>
 
           <h6>
-            Total de tarefas concluidas:
+            Total completed tasks:
             <span>{totalCompletedTasks}</span>
           </h6>
         </footer>
