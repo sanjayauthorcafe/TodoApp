@@ -28,7 +28,7 @@ export function Form({ onSubmit }) {
       <Input
         type="text"
         value={taskName}
-        placeholder="Nome da tarefa"
+        placeholder="Nome da task"
         onChange={event => setTaskName(event.target.value)}
       />
       
