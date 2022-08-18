@@ -38,7 +38,7 @@ export function Form({ onSubmit }) {
         className={styles.form__button}
       >
         <FaPlus size={12} />
-        Adicionar
+        Add
       </button>
     </form>
   )
