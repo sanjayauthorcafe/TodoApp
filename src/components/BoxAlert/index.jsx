@@ -8,7 +8,7 @@ export function BoxAlert({ type }) {
       {type === 'empty' && (
         <>
           <FaInfoCircle size={36} />
-          <p>A lista de tarefas está vazia.</p>
+          <p>Task list is empty</p>
         </>
       )}
 
