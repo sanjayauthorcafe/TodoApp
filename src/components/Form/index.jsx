@@ -28,8 +28,11 @@ export function Form({ onSubmit }) {
       <Input
         type="text"
         value={taskName}
-        placeholder="Nome da task"
-        onChange={event => setTaskName(event.target.value)}
+        placeholder="Name da task"
+        onChange={event =>{
+          setTaskName(event.target.value)
+          amplitude.getInstance().logEvent('Testing Todo');
+        }}
       />
       
       <button
